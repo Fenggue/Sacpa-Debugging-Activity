@@ -4,35 +4,36 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Debugging Activity</title>
-    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="styles.css"> <!-- href not called properly-->
 </head>
 <body>
     <header>
         <h1>Debugging Activity</h1>
     </header>
-    <nav>
+        <nav> <!-- This should be outside the header not inside it -->
         <ul style="color: brown;">
             <li><a href="#">Home</a></li>
-            <li><a href="#">About</li>
+            <li><a href="#">About</a></li>
             <li><a href="#">Services</a></li>
             <li><a href="#">Contact</a></li>
         </ul>
     </nav>
     <main>
         <section>
-            <h2>About Us
+            <h2>About Us</h2> <!-- Not closed usin </h2>-->
             <p>Welcome to our website. We provide top-notch services in various fields.</p>
         </section>
-        <section>
-            <h2>Our Services</h2>
+        <section> <!-- No opening <Section> -->
+            <h3>Our Services</h3>
             <ul>
                 <li>Web Development</li>
                 <li>Graphic Design</li>
                 <li>Digital Marketing</li>
             </ul>
         </section>
+
         <section>
-            <h2>Contact Us</h2>
+            <h4>Contact Us</h4>
             <form action="submit.php" method="post">
                 <label for="name">Name:</label>
                 <input type="text" id="name" name="name">

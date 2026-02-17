@@ -1,5 +1,5 @@
 /* styles.css */
-body 
+body { /*Not opened*/
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
@@ -7,11 +7,12 @@ body
     overflow-x: hidden;
 }
 
-heade {
+header { /*heade changed to header*/
+    justify-content: space-between;
     background-color: #333;
     color: #fff;
-    padding: 20px;
-    text-align: center;
+    padding: 10px 20px;
+    text-align: center; 
 }
 
 nav ul {
@@ -32,15 +33,15 @@ nav ul li a {
 
 main section {
     margin: 20px;
-
+} /*Not closed*/
 
 footer {
     position: absolute;
-    bottom: 0
+    bottom: 0; /* No Semi-Colon */
     right: 0;
     width: 100vw;
     background-color: #333;
     color: #fff;
     padding: 10px;
-    text-align center;
+    text-align: center; /* No Colon */
 }
