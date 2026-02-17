@@ -8,4 +8,4 @@ HTML - styles was file was not called properly.
 HTML - Hyperlinks was in the same block as the header.
 HTML - ABOUT US or Header 2 was not closed and this made the other contents within that section to be BOLD or on CAPSLOCK
 HTML - There was a missing opening section for Header 3.
-HTML - 
+HTML - Useless/Abundant inline CSS for the hyperlinks 
